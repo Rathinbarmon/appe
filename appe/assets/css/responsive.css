@@ -1,0 +1,240 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media (max-width: 991px){
+
+	.footer-widget {
+	    margin-bottom: 20px;
+	}
+	.main-menu ul li {
+	    margin-left: 11px;
+	}
+	.header-text {
+	    margin-top: 20px;
+	}
+	.header-text h1 {
+	    font-size: 30px;
+	    line-height: 35px;
+	}
+	.feature-box {
+	    padding: 7px;
+	}
+	figure#spinner img {
+	    padding: 0px;
+	}
+	.pricing-box.active {
+	    transform: scale(1);
+	}
+	.pricing-box.active:hover h4 {
+	    color: #00B1D5;
+	}
+	.pricing-box.active a {
+	    background: #07D1CB;
+	    border-color: #07D1CB;
+	}
+	.pricing-box.active:hover a {
+	    background: #00B1D5;
+	    border-color: #00B1D5;
+	}
+	.pricing-box{
+		margin-bottom: 30px;
+	}
+	.owl-carousel-team .icon ul li {
+	    display: inline;
+	    float: inherit;
+	}
+	.owl-carousel-team .icon ul {
+	    left: 0;
+	}
+	.about-right {
+	    padding-left: 0;
+	}
+	.about-content {
+		padding: 0px 0px 40px 0px;
+	}
+	.screenshort-left {
+		padding: 0px 0px 40px 0px;
+	}
+	.single-team{
+		margin-bottom:20px;
+	}
+
+}
+@media (max-width: 768px){
+	.main-menu ul {
+	    display: none;
+	}
+	.slicknav_menu {
+	    display: block;
+	}
+	.slicknav_menu{
+	    right: 18px;
+	}
+	.slicknav_nav {
+	    left: 18px;
+	}
+	.footer-widget h4::after {
+	    width: 100%;
+	}
+	.header-text h1 {
+	    font-size: 30px;
+	}
+	.header-text {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.header-text p {
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.thumbnail a > img, .thumbnail > img {
+	    width: 100%;
+	}
+	.owl-carousel-team .owl-nav {
+	    display: none;
+	}
+	.about-content {
+		padding: 0px 0px 40px 0px;
+	}
+	.screenshort-left {
+		padding: 0px 0px 40px 0px;
+	}
+	.single-team {
+		margin-bottom:20px; 
+	}
+	.header-top-area {
+		display:none;
+	}
+	.slicknav_nav .menu-close{
+		display:none;
+	}
+	.off-canvas-menu_2_color{ 
+		background: #2ECC71;
+	}
+	.off-canvas-menu_2_color li a { 
+		border-bottom: 1px solid #3DDB80;
+	}
+	.off-canvas-menu_2_color a:hover { 
+		background: #3DDB80; 
+	}
+}
+
+@media (max-width: 595px){
+	ul.icon li a {
+		margin: 20px 6px;
+	}
+	.single-team {
+		margin-bottom:20px;
+		padding:0px 20px;
+	}
+	.header-top-area {
+		display:none;
+	}
+	.slicknav_nav .menu-close{
+		display:none;
+	}
+	.off-canvas-menu_2_color{ 
+		background: #2ECC71;
+	}
+	.off-canvas-menu_2_color li a { 
+		border-bottom: 1px solid #3DDB80;
+	}
+	.off-canvas-menu_2_color a:hover { 
+		background: #3DDB80; 
+	}
+}
+@media (max-width: 500px){
+	.shop .col-xs-6 {
+	    width: 100%;
+	}
+	.secvice-box {
+	    margin: 44px;
+	}
+	.single-team {
+		margin-bottom:20px;
+		padding:0px 20px;
+	}
+	.header-top-area {
+		display:none;
+	}
+	.slicknav_nav .menu-close{
+		display:none;
+	}
+	.off-canvas-menu_2_color{ 
+		background: #2ECC71;
+	}
+	.off-canvas-menu_2_color li a { 
+		border-bottom: 1px solid #3DDB80;
+	}
+	.off-canvas-menu_2_color a:hover { 
+		background: #3DDB80; 
+	}
+}
+@media (max-width: 480px){
+	.header-top-bar ul {
+	    display: none;
+	}
+	.sign-in-btn {
+	    float: none;
+	    text-align: center;
+	    display: inline;
+	}
+	.header-text h1 {
+	    font-size: 25px;
+	}
+	.header-text p {
+	    margin-top: 14px;
+	}
+	.social h2 {
+	    font-size: 20px;
+	}
+	.single-team {
+		margin-bottom:20px;
+		padding:0px 20px;
+	}
+}
+@media (max-width: 390px){
+	.features-main ul li a span {
+	    display: none;
+	}
+	ul.icon li a {
+	    margin: 10px 6px;
+	}
+	.feature-box {
+	    padding: 0px;
+	}
+	.features .text h4 {
+		font-size: 16px;
+	}
+	.features .text p {
+		font-size: 12px;
+	}
+	.feature-box .text {
+	    padding-left: 8px;
+	}
+	.about-content {
+		padding: 0px 0px 40px 0px;
+	}
+	.screenshort-left {
+		padding: 0px 0px 40px 0px;
+	}
+	.single-team {
+		margin-bottom:20px;
+	}
+	.header-top-area {
+		display:none;
+	}
+	.slicknav_nav .menu-close{
+		display:none;
+	}
+	.off-canvas-menu_2_color{ 
+		background: #2ECC71;
+	}
+	.off-canvas-menu_2_color li a { 
+		border-bottom: 1px solid #3DDB80;
+	}
+	.off-canvas-menu_2_color a:hover { 
+		background: #3DDB80; 
+	}
+}
